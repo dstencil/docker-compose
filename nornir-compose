@@ -25,3 +25,6 @@ services:
   nornir:
     image: dstencil/ce:nornir
     restart: always
+    container_name: nornir
+    volumes:
+      - ./nornir:/nornir
